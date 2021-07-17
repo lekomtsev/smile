@@ -1,6 +1,8 @@
 # Верстка макета в рамках Летней кухни (Picom)
 [Ссылка на макет (Figma)](https://www.figma.com/file/p9rwUVzI4rMotCcOOhreFg/Test)
 
+[Ссылка на готовую верстку](https://jsmaster.ru/picom/summer21/)
+
 ## Структура проекта
 
 ```shell
