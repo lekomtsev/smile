@@ -1,0 +1,405 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Smile</title>
+
+  <!-- favicon -->
+  <!--
+    <link rel="icon" href="favicon.ico">
+    <link rel="icon" href="images/favicon.svg" type="images/svg+xml">
+    <link rel="apple-touch-icon" href="images/180.png">
+    <link rel="manifest" href="manifest.webmanifest">
+  -->
+
+  <!--
+      https://htmlacademy.ru/blog/boost/frontend/about-normalize-css
+      - Normalize.css сохраняет полезные настройки по умолчанию
+  -->
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+<!-- https://github.com/yoksel/common-words -->
+
+<header class="header">
+  <nav class="header__navigation container">
+    <a class="logo" href="#">
+      <img class="logo__image" src="./images/logo.svg" alt="Picom" width="105px">
+    </a>
+    <ul class="header__menu">
+      <li class="header__menu-item">
+        <a href="#">Наши услуги</a>
+      </li>
+      <li class="header__menu-item">
+        <a href="#">Кейсы</a>
+      </li>
+      <li class="header__menu-item">
+        <a href="#">Прайс</a>
+      </li>
+      <li class="header__menu-item">
+        <a href="#">Новости</a>
+      </li>
+      <li class="header__menu-item">
+        <a href="#">О компании</a>
+      </li>
+    </ul>
+    <div class="cart">
+      <a class="cart__link" href="#">Корзина</a>
+    </div>
+  </nav>
+</header>
+
+<main class="main">
+  <div class="container">
+    <h1 class="page-title">Каталог</h1>
+    <div class="wrapper">
+      <section class="content">
+        <ul class="products">
+          <li class="product">
+            <a class="product__image-wrapper" href="#">
+              <img class="product__image" src="./images/product-1.jpg" alt="Alt">
+            </a>
+            <div class="rating">
+              <ul class="stars">
+                <li class="star">
+                  <svg width="16" height="16">
+                    <use xlink:href="./images/sprite.svg#star-filled"></use>
+                  </svg>
+                </li>
+                <li class="star">
+                  <svg width="16" height="16">
+                    <use xlink:href="./images/sprite.svg#star-filled"></use>
+                  </svg>
+                </li>
+                <li class="star">
+                  <svg width="16" height="16">
+                    <use xlink:href="./images/sprite.svg#star-filled"></use>
+                  </svg>
+                </li>
+                <li class="star">
+                  <svg width="16" height="16">
+                    <use xlink:href="./images/sprite.svg#star-filled"></use>
+                  </svg>
+                </li>
+                <li class="star">
+                  <svg width="16" height="16">
+                    <use xlink:href="./images/sprite.svg#star"></use>
+                  </svg>
+                </li>
+              </ul>
+              <div class="rating__text">253 отзыва</div>
+            </div>
+            <div class="product__title">Футболка Rizziano</div>
+            <div class="product__controls">
+              <div class="product__price">
+                <span>2 990 ₽</span>
+                1 990 ₽
+              </div>
+              <button class="product__button button button--danger button--md" type="button">
+                <svg width="20" height="20">
+                  <use xlink:href="./images/sprite.svg#cart-light"></use>
+                </svg>
+              </button>
+            </div>
+          </li>
+          <li class="product">
+            <a class="product__image-wrapper" href="#">
+              <img class="product__image" src="./images/product-2.jpg" alt="Alt">
+            </a>
+            <div class="rating">
+              <ul class="stars">
+                <li class="star">
+                  <svg width="16" height="16">
+                    <use xlink:href="./images/sprite.svg#star-filled"></use>
+                  </svg>
+                </li>
+                <li class="star">
+                  <svg width="16" height="16">
+                    <use xlink:href="./images/sprite.svg#star-filled"></use>
+                  </svg>
+                </li>
+                <li class="star">
+                  <svg width="16" height="16">
+                    <use xlink:href="./images/sprite.svg#star-filled"></use>
+                  </svg>
+                </li>
+                <li class="star">
+                  <svg width="16" height="16">
+                    <use xlink:href="./images/sprite.svg#star-filled"></use>
+                  </svg>
+                </li>
+                <li class="star">
+                  <svg width="16" height="16">
+                    <use xlink:href="./images/sprite.svg#star"></use>
+                  </svg>
+                </li>
+              </ul>
+              <div class="rating__text">253 отзыва</div>
+            </div>
+            <div class="product__title">Футболка Rizziano</div>
+            <div class="product__controls">
+              <div class="product__price">
+                <span>2 990 ₽</span>
+                1 990 ₽
+              </div>
+              <button class="product__button button button--danger button--md" type="button">
+                <svg width="20" height="20">
+                  <use xlink:href="./images/sprite.svg#cart-light"></use>
+                </svg>
+              </button>
+            </div>
+          </li>
+          <li class="product">
+            <a class="product__image-wrapper" href="#">
+              <img class="product__image" src="./images/product-3.jpg" alt="Alt">
+            </a>
+            <div class="rating">
+              <ul class="stars">
+                <li class="star">
+                  <svg width="16" height="16">
+                    <use xlink:href="./images/sprite.svg#star-filled"></use>
+                  </svg>
+                </li>
+                <li class="star">
+                  <svg width="16" height="16">
+                    <use xlink:href="./images/sprite.svg#star-filled"></use>
+                  </svg>
+                </li>
+                <li class="star">
+                  <svg width="16" height="16">
+                    <use xlink:href="./images/sprite.svg#star-filled"></use>
+                  </svg>
+                </li>
+                <li class="star">
+                  <svg width="16" height="16">
+                    <use xlink:href="./images/sprite.svg#star-filled"></use>
+                  </svg>
+                </li>
+                <li class="star">
+                  <svg width="16" height="16">
+                    <use xlink:href="./images/sprite.svg#star"></use>
+                  </svg>
+                </li>
+              </ul>
+              <div class="rating__text">253 отзыва</div>
+            </div>
+            <div class="product__title">Футболка Rizziano</div>
+            <div class="product__controls">
+              <div class="product__price">
+                <span>2 990 ₽</span>
+                1 990 ₽
+              </div>
+              <button class="product__button button button--danger button--md" type="button">
+                <svg width="20" height="20">
+                  <use xlink:href="./images/sprite.svg#cart-light"></use>
+                </svg>
+              </button>
+            </div>
+          </li>
+          <li class="product">
+            <a class="product__image-wrapper" href="#">
+              <img class="product__image" src="./images/product-4.jpg" alt="Alt">
+            </a>
+            <div class="rating">
+              <ul class="stars">
+                <li class="star">
+                  <svg width="16" height="16">
+                    <use xlink:href="./images/sprite.svg#star-filled"></use>
+                  </svg>
+                </li>
+                <li class="star">
+                  <svg width="16" height="16">
+                    <use xlink:href="./images/sprite.svg#star-filled"></use>
+                  </svg>
+                </li>
+                <li class="star">
+                  <svg width="16" height="16">
+                    <use xlink:href="./images/sprite.svg#star-filled"></use>
+                  </svg>
+                </li>
+                <li class="star">
+                  <svg width="16" height="16">
+                    <use xlink:href="./images/sprite.svg#star-filled"></use>
+                  </svg>
+                </li>
+                <li class="star">
+                  <svg width="16" height="16">
+                    <use xlink:href="./images/sprite.svg#star"></use>
+                  </svg>
+                </li>
+              </ul>
+              <div class="rating__text">253 отзыва</div>
+            </div>
+            <div class="product__title">Футболка Rizziano</div>
+            <div class="product__controls">
+              <div class="product__price">
+                <span>2 990 ₽</span>
+                1 990 ₽
+              </div>
+              <button class="product__button button button--danger button--md" type="button">
+                <svg width="20" height="20">
+                  <use xlink:href="./images/sprite.svg#cart-light"></use>
+                </svg>
+              </button>
+            </div>
+          </li>
+          <li class="product">
+            <a class="product__image-wrapper" href="#">
+              <img class="product__image" src="./images/product-5.jpg" alt="Alt">
+            </a>
+            <div class="rating">
+              <ul class="stars">
+                <li class="star">
+                  <svg width="16" height="16">
+                    <use xlink:href="./images/sprite.svg#star-filled"></use>
+                  </svg>
+                </li>
+                <li class="star">
+                  <svg width="16" height="16">
+                    <use xlink:href="./images/sprite.svg#star-filled"></use>
+                  </svg>
+                </li>
+                <li class="star">
+                  <svg width="16" height="16">
+                    <use xlink:href="./images/sprite.svg#star-filled"></use>
+                  </svg>
+                </li>
+                <li class="star">
+                  <svg width="16" height="16">
+                    <use xlink:href="./images/sprite.svg#star-filled"></use>
+                  </svg>
+                </li>
+                <li class="star">
+                  <svg width="16" height="16">
+                    <use xlink:href="./images/sprite.svg#star"></use>
+                  </svg>
+                </li>
+              </ul>
+              <div class="rating__text">253 отзыва</div>
+            </div>
+            <div class="product__title">Футболка Rizziano</div>
+            <div class="product__controls">
+              <div class="product__price">
+                <span>2 990 ₽</span>
+                1 990 ₽
+              </div>
+              <button class="product__button button button--danger button--md" type="button">
+                <svg width="20" height="20">
+                  <use xlink:href="./images/sprite.svg#cart-light"></use>
+                </svg>
+              </button>
+            </div>
+          </li>
+          <li class="product">
+            <a class="product__image-wrapper" href="#">
+              <img class="product__image" src="./images/product-6.jpg" alt="Alt">
+            </a>
+            <div class="rating">
+              <ul class="stars">
+                <li class="star">
+                  <svg width="16" height="16">
+                    <use xlink:href="./images/sprite.svg#star-filled"></use>
+                  </svg>
+                </li>
+                <li class="star">
+                  <svg width="16" height="16">
+                    <use xlink:href="./images/sprite.svg#star-filled"></use>
+                  </svg>
+                </li>
+                <li class="star">
+                  <svg width="16" height="16">
+                    <use xlink:href="./images/sprite.svg#star-filled"></use>
+                  </svg>
+                </li>
+                <li class="star">
+                  <svg width="16" height="16">
+                    <use xlink:href="./images/sprite.svg#star-filled"></use>
+                  </svg>
+                </li>
+                <li class="star">
+                  <svg width="16" height="16">
+                    <use xlink:href="./images/sprite.svg#star"></use>
+                  </svg>
+                </li>
+              </ul>
+              <div class="rating__text">253 отзыва</div>
+            </div>
+            <div class="product__title">Футболка Rizziano</div>
+            <div class="product__controls">
+              <div class="product__price">
+                <span>2 990 ₽</span>
+                1 990 ₽
+              </div>
+              <button class="product__button button button--danger button--md" type="button">
+                <svg width="20" height="20">
+                  <use xlink:href="./images/sprite.svg#cart-light"></use>
+                </svg>
+              </button>
+            </div>
+          </li>
+        </ul>
+        <button class="load-more-products button button-outline-danger button--lg" type="button">Показать еще</button>
+      </section>
+      <aside class="sidebar">
+        <div class="currency">
+          <p>currency</p>
+          <button class="button" type="button">Подписаться</button>
+        </div>
+      </aside>
+    </div>
+  </div>
+</main>
+
+<footer class="footer">
+  <div class="container">
+    <nav class="footer__navigation">
+      <a class="logo" href="#">
+        <img class="logo__image" src="./images/logo.svg" alt="Picom" width="106" height="32">
+      </a>
+
+      <div class="footer__menu-wrapper">
+        <h2 class="footer__menu-title">Наши услуги</h2>
+        <ul class="footer__menu">
+          <li class="footer__menu-item">
+            <a href="#">Разработка и поддержка</a>
+          </li>
+          <li class="footer__menu-item">
+            <a href="#">Маркетинг и реклама</a>
+          </li>
+          <li class="footer__menu-item">
+            <a href="#">Аналитика и исследования</a>
+          </li>
+          <li class="footer__menu-item">
+            <a href="#">Внедрение CRM</a>
+          </li>
+          <li class="footer__menu-item">
+            <a href="#">Решения</a>
+          </li>
+        </ul>
+      </div>
+      <div class="footer__menu-wrapper">
+        <h2 class="footer__menu-title">Продукты</h2>
+        <ul class="footer__menu">
+          <li class="footer__menu-item">
+            <a href="#">Облачная версия Битрикс24</a>
+          </li>
+          <li class="footer__menu-item">
+            <a href="#">Коробочная версия Битрикс24</a>
+          </li>
+          <li class="footer__menu-item">
+            <a href="#">1С-Битрикс: Управление сайтом</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </div>
+  <section class="copyright">
+    <div class="copyright__container container">
+      <div class="copyright__text">&copy; 2021 Все права защищены</div>
+    </div>
+  </section>
+</footer>
+
+</body>
+</html>
