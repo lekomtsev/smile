@@ -3,6 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <title>Smile</title>
+  <meta name="viewport" content="width=1260"/>
 
   <!-- favicon -->
   <!--
@@ -25,7 +26,7 @@
 <header class="header">
   <nav class="header__navigation container">
     <a class="logo" href="#">
-      <img class="logo__image" src="./images/logo.svg" alt="Picom" width="105px">
+      <img class="logo__image" src="./images/logo.svg" alt="Picom" width="106" height="32">
     </a>
     <ul class="header__menu">
       <li class="header__menu-item">
@@ -45,14 +46,19 @@
       </li>
     </ul>
     <div class="cart">
-      <a class="cart__link" href="#">Корзина</a>
+      <a class="cart__link" href="#">
+        <svg width="20" height="20">
+          <use xlink:href="./images/sprite.svg#cart"></use>
+        </svg>
+        Корзина
+      </a>
     </div>
   </nav>
 </header>
 
 <main class="main">
   <div class="container">
-    <h1 class="page-title">Каталог</h1>
+    <h1 class="main__title page-title">Каталог</h1>
     <div class="wrapper">
       <section class="content">
         <ul class="products">
@@ -90,13 +96,13 @@
               </ul>
               <div class="rating__text">253 отзыва</div>
             </div>
-            <div class="product__title">Футболка Rizziano</div>
+            <h2 class="product__title">Футболка Rizziano</h2>
             <div class="product__controls">
               <div class="product__price">
                 <span>2 990 ₽</span>
                 1 990 ₽
               </div>
-              <button class="product__button button button--danger button--md" type="button">
+              <button class="product__button button button--danger button--md" type="button" aria-label="Add product cart">
                 <svg width="20" height="20">
                   <use xlink:href="./images/sprite.svg#cart-light"></use>
                 </svg>
@@ -137,13 +143,13 @@
               </ul>
               <div class="rating__text">253 отзыва</div>
             </div>
-            <div class="product__title">Футболка Rizziano</div>
+            <h2 class="product__title">Футболка Rizziano</h2>
             <div class="product__controls">
               <div class="product__price">
                 <span>2 990 ₽</span>
                 1 990 ₽
               </div>
-              <button class="product__button button button--danger button--md" type="button">
+              <button class="product__button button button--danger button--md" type="button" aria-label="Add product cart">
                 <svg width="20" height="20">
                   <use xlink:href="./images/sprite.svg#cart-light"></use>
                 </svg>
@@ -184,13 +190,13 @@
               </ul>
               <div class="rating__text">253 отзыва</div>
             </div>
-            <div class="product__title">Футболка Rizziano</div>
+            <h2 class="product__title">Футболка Rizziano</h2>
             <div class="product__controls">
               <div class="product__price">
                 <span>2 990 ₽</span>
                 1 990 ₽
               </div>
-              <button class="product__button button button--danger button--md" type="button">
+              <button class="product__button button button--danger button--md" type="button" aria-label="Add product cart">
                 <svg width="20" height="20">
                   <use xlink:href="./images/sprite.svg#cart-light"></use>
                 </svg>
@@ -231,13 +237,13 @@
               </ul>
               <div class="rating__text">253 отзыва</div>
             </div>
-            <div class="product__title">Футболка Rizziano</div>
+            <h2 class="product__title">Футболка Rizziano</h2>
             <div class="product__controls">
               <div class="product__price">
                 <span>2 990 ₽</span>
                 1 990 ₽
               </div>
-              <button class="product__button button button--danger button--md" type="button">
+              <button class="product__button button button--danger button--md" type="button" aria-label="Add product cart">
                 <svg width="20" height="20">
                   <use xlink:href="./images/sprite.svg#cart-light"></use>
                 </svg>
@@ -278,13 +284,13 @@
               </ul>
               <div class="rating__text">253 отзыва</div>
             </div>
-            <div class="product__title">Футболка Rizziano</div>
+            <h2 class="product__title">Футболка Rizziano</h2>
             <div class="product__controls">
               <div class="product__price">
                 <span>2 990 ₽</span>
                 1 990 ₽
               </div>
-              <button class="product__button button button--danger button--md" type="button">
+              <button class="product__button button button--danger button--md" type="button" aria-label="Add product cart">
                 <svg width="20" height="20">
                   <use xlink:href="./images/sprite.svg#cart-light"></use>
                 </svg>
@@ -325,13 +331,13 @@
               </ul>
               <div class="rating__text">253 отзыва</div>
             </div>
-            <div class="product__title">Футболка Rizziano</div>
+            <h2 class="product__title">Футболка Rizziano</h2>
             <div class="product__controls">
               <div class="product__price">
                 <span>2 990 ₽</span>
                 1 990 ₽
               </div>
-              <button class="product__button button button--danger button--md" type="button">
+              <button class="product__button button button--danger button--md" type="button" aria-label="Add product cart">
                 <svg width="20" height="20">
                   <use xlink:href="./images/sprite.svg#cart-light"></use>
                 </svg>
@@ -342,9 +348,33 @@
         <button class="load-more-products button button-outline-danger button--lg" type="button">Показать еще</button>
       </section>
       <aside class="sidebar">
+
         <div class="currency">
-          <p>currency</p>
-          <button class="button" type="button">Подписаться</button>
+          <ul class="currency__list">
+
+            <li class="currency__display currency__display--success">
+              <div class="currency__name">
+                <span class="currency__state"></span>
+                USD
+              </div>
+              <div class="currency__number">
+                <span class="currency__previous">0,0083</span>
+                72.177
+              </div>
+            </li>
+            <li class="currency__display currency__display--danger">
+              <div class="currency__name">
+                <span class="currency__state"></span>
+                USD
+              </div>
+              <div class="currency__number">
+                <span class="currency__previous">0,0183</span>
+                72.177
+              </div>
+            </li>
+          </ul>
+
+          <button class="currency__button button button--danger button--lg" type="button">Подписаться</button>
         </div>
       </aside>
     </div>
@@ -394,11 +424,11 @@
       </div>
     </nav>
   </div>
-  <section class="copyright">
+  <div class="copyright">
     <div class="copyright__container container">
       <div class="copyright__text">&copy; 2021 Все права защищены</div>
     </div>
-  </section>
+  </div>
 </footer>
 
 </body>

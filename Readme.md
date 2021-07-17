@@ -15,6 +15,6 @@ smile/
 
 ## Динамическая перезагрузка браузера
 
-    - Убедиться что установлен (node -v) [node.js](https://nodejs.org/en/)
-    - Устанавливаем [browsersync](https://browsersync.io/)
-    - Запускаем: browser-sync start --server --files "css/.css,js/.js,html/.html"
+    - Убедиться что установлен node.js (node -v) (https://nodejs.org/en/)
+    - Устанавливаем browsersync (https://browsersync.io/)
+    - Запускаем: npm run start
